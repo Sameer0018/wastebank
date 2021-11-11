@@ -39,9 +39,7 @@ const Navbar = () => {
                     <li className="nav-item active">
                             <NavLink className="nav-link" to="/">Home <span className="sr-only"></span></NavLink>
                         </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link" to="/categories">Categories</NavLink>
-                        </li>
+                       
                         
                         
                         <li className="nav-item">
