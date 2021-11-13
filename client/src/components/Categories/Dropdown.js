@@ -34,7 +34,7 @@ function Dropdown() {
 
     } catch (err) {
       console.log(err);
-      history.push('/categories');
+      history.push('/login');
     }
   }
 
