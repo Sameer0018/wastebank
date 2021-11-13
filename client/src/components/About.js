@@ -40,7 +40,7 @@ const About = () => {
 
         } catch (err) {
             console.log(err);
-            history.push('/about');
+            history.push('/login');
         }
     }
     useEffect(() => {
