@@ -46,7 +46,7 @@ const Signup = () => {
             console.log(res);
         } catch (error) {
             if (error.response.status = 422) {
-                alert('invaild detail')
+                alert('Already Registered')
             } else {
                 alert('server error')
             }
