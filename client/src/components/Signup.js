@@ -34,8 +34,8 @@ const Signup = () => {
 
             if (res.status === 422 || !data) {
                 
-                window.alert("already Registration");
-                console.log("already Registration");
+                window.alert("Already Registration");
+                console.log("Invalid Registration");
             } else {
                 window.alert("Registration Successful");
                 console.log("Registration Successfull");
